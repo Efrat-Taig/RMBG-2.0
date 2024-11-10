@@ -136,5 +136,23 @@ image.save("no_bg_image.png")
 ```
 
 # BRIA Background Removal v2.0 Benchmark
-<img src="https://github.com/Efrat-Taig/RMBG-2.0/blob/main/benchmark" width="700">
 
+In this benchmark, I tested the new RMBG v2.0 model alongside  our earlier version, RMBG-1.4. The updated RMBG v2.0 showed impressive improvements in background removal, especially in handling complex scenes and preserving the finer details around edges.
+
+Setting up this benchmark was quick and easy. I used a language model to create a set of 100 diverse images, then ran them through BRIA 2.3 Fast. In about 10 minutes, I had a solid benchmark ready to go. Feel free to try it out yourself and make your own benchmark that suits your needs and  usecase with the attahed code  [creat_generated_benchmark.py](https://github.com/Efrat-Taig/RMBG-2.0/blob/main/creat_generated_benchmark.py)
+
+
+Our analysis confirms that while RMBG-1.4 delivers strong performance, RMBG v2.0 sets a new standard, achieving even cleaner separations and greater consistency across a range of scenarios. We’re excited to share this improved model!
+
+
+
+## Download the Dataset
+
+The dataset is available for download from Google Drive. You can access it using the following link:
+
+[**Download RMBG Benchmark Dataset**](https://drive.google.com/drive/folders/1V7H0WzqgWU6RWVvvOntBriWSPXS35fwB?usp=sharing)
+
+
+<img src="https://github.com/Efrat-Taig/RMBG-2.0/blob/main/benchmark.png" width="600">
+
+BRIA's RMBG v2.0 model is ideal for applications where high-quality background removal is essential, particularly for content creators, e-commerce, and advertising. The model’s ability to handle various image types, including challenging ones with non-solid backgrounds, makes it a valuable asset for businesses focused on legally licensed, ethically sourced datasets.
