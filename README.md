@@ -71,7 +71,7 @@ Open source models comparison
 
 <img src="https://github.com/Efrat-Taig/RMBG-2.0/blob/main/collage5.png" width="700">
 
-<img src="[https://github.com/Efrat-Taig/RMBG-1.4/blob/main/t4.png](https://github.com/Efrat-Taig/RMBG-2.0/blob/main/diagram1.png)" width="700">
+<img src="https://github.com/Efrat-Taig/RMBG-1.4/blob/main/t4.png" width="700">
 
 
 ### Architecture
