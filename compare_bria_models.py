@@ -37,8 +37,8 @@ os.makedirs(output_folder_path, exist_ok=True)
 pipe_1_4 = pipeline("image-segmentation", model="briaai/RMBG-1.4", trust_remote_code=True)
 
 # Load RMBG-2.0 model
-birefnet = AutoModelForImageSegmentation.from_pretrained('briaai/RMBG-2.0', trust_remote_code=True)
-birefnet.to('cuda').eval()
+bria_2_0 = AutoModelForImageSegmentation.from_pretrained('briaai/RMBG-2.0', trust_remote_code=True)
+bria_2_0.to('cuda').eval()
 
 # Transformation for RMBG-2.0
 transform_image = transforms.Compose([
@@ -71,7 +71,7 @@ for filename in os.listdir(input_folder_path):
         # Process with RMBG-2.0
         input_image = transform_image(original_image).unsqueeze(0).to('cuda')
         with torch.no_grad():
-            preds = birefnet(input_image)[-1].sigmoid().cpu()
+            preds = bria_2_0(input_image)[-1].sigmoid().cpu()
         pred = preds[0].squeeze()
 
         mask_2_0 = transforms.ToPILImage()(pred).resize(original_image.size)
