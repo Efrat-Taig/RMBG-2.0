@@ -13,6 +13,8 @@ Developed by BRIA AI, [RMBG v2.0](https://huggingface.co/briaai/RMBG-2.0) is ava
 [CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-RMBG-2.0)
 
 
+Join MY [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
+
 <img src="https://github.com/Efrat-Taig/RMBG-1.4/blob/main/t4.png" width="700">
 
 
